@@ -1,6 +1,7 @@
 let timer;
 
 window.addEventListener('DOMContentLoaded', () => {
+  console.log('DOMContentLoaded');
   const tabs = document.querySelectorAll('[role="tab"]');
 
   // Add a click event handler to each tab
